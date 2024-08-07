@@ -40,7 +40,7 @@ if __name__ == '__main__':
     
     #env_checker.check_env(env)
     #file_name = 'session_4da05e87_main_good/poke_439746560_steps'
-    file_name = 'session_1d8a6082/poke_327680_steps'
+    file_name = 'session_42b86293\poke_12451840_steps'
 
     print('\nloading checkpoint')
     model = PPO.load(file_name, env=env, custom_objects={'lr_schedule': 0, 'clip_range': 0})
